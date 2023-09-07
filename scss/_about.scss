@@ -1,0 +1,93 @@
+#about {
+    &-a {
+        .info {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 1.2rem;
+
+            &__image {
+                border: 1px solid $light-color;
+                padding: .5rem;
+                border-radius: 3px;
+            }
+
+            &__bio {
+                border: 1px solid $light-color;
+                padding: .8rem;
+            }
+        }
+    }
+
+    &-b {
+        padding: 2rem 0;
+        color: #fff;
+        background-color: #555;
+
+        .section-title {
+            text-align: center;
+            color: #fff;
+        }
+
+        .progress {
+            color: $primary-color;
+            height: 20px;
+            background-color: #a1a5b2;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+
+            div {
+                height: 100%;
+                text-align: center;
+                background-color: $primary-color;
+            }
+        }
+    }
+
+    &-c {
+        .about-logos {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 2rem;
+            align-items: center;
+            margin: 20px;
+
+            img {
+                width: 70%;
+            }
+            
+    }
+   }
+
+    &-d {
+        .container {
+            .section-title {
+                margin-top: 5rem;
+                color: black;
+                text-align: center;
+            }
+        }
+
+
+
+        .references {
+            ul {
+                list-style: none;
+                margin-top: 1rem;
+                display: flex;
+                align-items: center;
+            }
+
+            p {
+                border: 1px solid $medium-color;
+                border-radius: 5px;
+                padding: .5rem;
+            }
+            img {
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                padding-right: .5rem;
+            }
+        }
+    }
+}
